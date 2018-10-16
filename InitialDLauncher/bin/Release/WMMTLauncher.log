@@ -1,0 +1,2 @@
+17/Oct/2018 3:37:37 AM:Could not load file or assembly 'InitialDLauncher, Version=0.0.0.75, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.   at BGMPlugin.BGMPlugin.DoSomething()
+   at WMMTLauncher.frmLauncher.LauncherNormalLoad() in E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\Form\frmLauncher.vb:line 74

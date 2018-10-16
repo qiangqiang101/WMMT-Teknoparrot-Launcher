@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WMMTLauncher", "InitialDLauncher\WMMTLauncher.vbproj", "{BF97135F-AE35-4012-9DD2-EB49E1D945D0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PluginContract", "PluginContract\PluginContract.vbproj", "{413AA0E0-8BBB-4CD2-8A3D-F7904EE54F95}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BGMPlugin", "BGMPlugin\BGMPlugin.vbproj", "{8D4DCB38-CCA1-4B67-AC95-4C84C3DB266E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MouseJailed", "MouseJailed\MouseJailed.vbproj", "{8C093217-6128-43F8-9F59-CEB10133E801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF97135F-AE35-4012-9DD2-EB49E1D945D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF97135F-AE35-4012-9DD2-EB49E1D945D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF97135F-AE35-4012-9DD2-EB49E1D945D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF97135F-AE35-4012-9DD2-EB49E1D945D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413AA0E0-8BBB-4CD2-8A3D-F7904EE54F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413AA0E0-8BBB-4CD2-8A3D-F7904EE54F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413AA0E0-8BBB-4CD2-8A3D-F7904EE54F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413AA0E0-8BBB-4CD2-8A3D-F7904EE54F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4DCB38-CCA1-4B67-AC95-4C84C3DB266E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4DCB38-CCA1-4B67-AC95-4C84C3DB266E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4DCB38-CCA1-4B67-AC95-4C84C3DB266E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4DCB38-CCA1-4B67-AC95-4C84C3DB266E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C093217-6128-43F8-9F59-CEB10133E801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C093217-6128-43F8-9F59-CEB10133E801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C093217-6128-43F8-9F59-CEB10133E801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C093217-6128-43F8-9F59-CEB10133E801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\bin\Release\InitialDLauncher.exe.config
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\bin\Release\InitialDLauncher.exe
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\bin\Release\InitialDLauncher.pdb
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\bin\Release\InitialDLauncher.xml
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.frmLauncher.resources
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.Resources.resources
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.frmSettings.resources
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.vbproj.GenerateResource.Cache
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.exe
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.xml
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.pdb
+e:\users\barry\documents\visual studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.vbprojResolveAssemblyReference.cache
+E:\Users\Barry\Documents\Visual Studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.Card.resources
+E:\Users\Barry\Documents\Visual Studio 2015\Projects\InitialDLauncher\InitialDLauncher\obj\Release\InitialDLauncher.frmCard.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\InitialDLauncher.exe.config
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.exe
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.xml
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.pdb
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\InitialDLauncher.exe
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\InitialDLauncher.pdb
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\InitialDLauncher.xml
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.vbprojResolveAssemblyReference.cache
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.Card.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.Form1.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmCard.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmLauncher.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.Resources.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmSettings.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.vbproj.GenerateResource.Cache
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmAbout.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmEdit.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmLeaderboard.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmLogin.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmSubmit.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.frmTimeAttack.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.TimeAttack.resources
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.dll
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.pdb
+F:\Users\Bartholomew\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.xml
+C:\Users\Potato\Documents\GitHub\Initial-D-Arcade-Stage-Teknoparrot-Launcher\InitialDLauncher\bin\Release\InitialDLauncher.exe.config
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\WMMTLauncher.exe.config
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.vbprojResolveAssemblyReference.cache
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.Form2.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.CarCtrl.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.Card.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.Form1.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmAbout.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmCard.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmEdit.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmEditCar.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmLauncher.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmLeaderboard.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmLogin.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmSubmit.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmTimeAttack.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.CardEmpty.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.FieldInformationItem.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.MyFlowLayoutPanel.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.MyWebBrowser.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.Resources.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmSettings.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.TimeAttack.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.frmLauncher.ja.resources
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\InitialDLauncher.vbproj.GenerateResource.Cache
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\WMMTLauncher.exe
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\WMMTLauncher.pdb
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\WMMTLauncher.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\ja\WMMTLauncher.resources.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Crc.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\ForceFeedbackJesus.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\PluginContract.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\TeknoParrotUi.Common.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs2.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.DirectInput.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Gma.System.MouseKeyHook.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.XInput.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs2.pdb
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs2.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.pdb
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\Thumbs.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\PluginContract.pdb
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\PluginContract.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.DirectInput.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.XInput.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\bin\Release\SharpDX.xml
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\ja\WMMTLauncher.resources.dll
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.exe
+E:\Users\Barry\Documents\GitHub\WMMT-Teknoparrot-Launcher\InitialDLauncher\obj\Release\WMMTLauncher.pdb

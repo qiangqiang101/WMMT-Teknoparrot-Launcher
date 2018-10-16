@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF97135F-AE35-4012-9DD2-EB49E1D945D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WMMTLauncher.My.MyApplication</StartupObject>
+    <RootNamespace>WMMTLauncher</RootNamespace>
+    <AssemblyName>WMMTLauncher</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WMMTLauncher.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WMMTLauncher.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ID8_256_v2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crc, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrcDotNET.1.0.2\lib\net35\Crc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ForceFeedbackJesus">
+      <HintPath>..\..\..\..\..\..\TeknoParrotLatest\ForceFeedbackJesus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="TeknoParrotUi.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TeknoParrotLatest\TeknoParrotUi.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\CFGRead.vb" />
+    <Compile Include="Class\Component\AudioFile.vb" />
+    <Compile Include="Class\Component\ComboboxItem.vb" />
+    <Compile Include="Class\Component\Crc32.vb" />
+    <Compile Include="Class\Component\SpecialLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\GifImage.vb" />
+    <Compile Include="Class\Logger.vb" />
+    <Compile Include="Class\Component\TextButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\PluginLoader.vb" />
+    <Compile Include="Class\XML Database\GameProfile.vb" />
+    <Compile Include="Class\XML Database\ParrotData.vb" />
+    <Compile Include="Class\Component\DropShadow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmLauncher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmLauncher.Designer.vb">
+      <DependentUpon>frmLauncher.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Helper.vb" />
+    <Compile Include="Class\iniRead.vb" />
+    <Compile Include="Form\User Control\FieldInformationItem.Designer.vb">
+      <DependentUpon>FieldInformationItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\User Control\FieldInformationItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\User Control\MyFlowLayoutPanel.Designer.vb">
+      <DependentUpon>MyFlowLayoutPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\User Control\MyFlowLayoutPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\User Control\MyWebBrowser.Designer.vb">
+      <DependentUpon>MyWebBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\User Control\MyWebBrowser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Form\frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Component\SplitButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\Component\Theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\Component\TransparentControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\Component\WebClientEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\frmLauncher.ja.resx">
+      <DependentUpon>frmLauncher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmLauncher.resx">
+      <DependentUpon>frmLauncher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\User Control\FieldInformationItem.resx">
+      <DependentUpon>FieldInformationItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\User Control\MyFlowLayoutPanel.resx">
+      <DependentUpon>MyFlowLayoutPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\User Control\MyWebBrowser.resx">
+      <DependentUpon>MyWebBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ID8.ico" />
+    <Content Include="ID8_256.ico" />
+    <Content Include="ID8_256_v2.ico" />
+    <None Include="Resources\cursor.wav" />
+    <None Include="Resources\select.wav" />
+    <None Include="Resources\FT86.jpg" />
+    <None Include="Resources\Z33.jpg" />
+    <None Include="Resources\SUPRA.jpg" />
+    <None Include="Resources\SIL80.jpg" />
+    <None Include="Resources\S2000-CC.jpg" />
+    <None Include="Resources\S2000.jpg" />
+    <None Include="Resources\S15.jpg" />
+    <None Include="Resources\S14.jpg" />
+    <None Include="Resources\S13.jpg" />
+    <None Include="Resources\RX8.jpg" />
+    <None Include="Resources\R35.jpg" />
+    <None Include="Resources\PRIUS.jpg" />
+    <None Include="Resources\NSX.jpg" />
+    <None Include="Resources\NB8C.jpg" />
+    <None Include="Resources\NA8C-Kai.jpg" />
+    <None Include="Resources\NA6CE.jpg" />
+    <None Include="Resources\NA2-CC.jpg" />
+    <None Include="Resources\MRS.jpg" />
+    <None Include="Resources\MR2.jpg" />
+    <None Include="Resources\JZA80-Kai.jpg" />
+    <None Include="Resources\GT86.jpg" />
+    <None Include="Resources\GCBF.jpg" />
+    <None Include="Resources\GCBA.jpg" />
+    <None Include="Resources\GC8.jpg" />
+    <None Include="Resources\FD3SRS.jpg" />
+    <None Include="Resources\FD3S-CC.jpg" />
+    <None Include="Resources\FD3S.jpg" />
+    <None Include="Resources\FC3S.jpg" />
+    <None Include="Resources\EVO10.jpg" />
+    <None Include="Resources\EVO9.jpg" />
+    <None Include="Resources\EVO7.jpg" />
+    <None Include="Resources\EVO6.jpg" />
+    <None Include="Resources\EVO5.jpg" />
+    <None Include="Resources\EVO4.jpg" />
+    <None Include="Resources\EVO3.jpg" />
+    <None Include="Resources\ER34.jpg" />
+    <None Include="Resources\EK9-CC.jpg" />
+    <None Include="Resources\EK9.jpg" />
+    <None Include="Resources\EG6.jpg" />
+    <None Include="Resources\EA11R.jpg" />
+    <None Include="Resources\DC2.jpg" />
+    <None Include="Resources\CELICA.jpg" />
+    <None Include="Resources\BRZ.jpg" />
+    <None Include="Resources\BNR34.jpg" />
+    <None Include="Resources\BNR32.jpg" />
+    <None Include="Resources\ALTEZZA.jpg" />
+    <None Include="Resources\AE862D.jpg" />
+    <None Include="Resources\AE86T.jpg" />
+    <None Include="Resources\AE86L.jpg" />
+    <None Include="Resources\AE85.jpg" />
+    <None Include="Resources\180SX.jpg" />
+    <None Include="Resources\gold.png" />
+    <None Include="Resources\silver.png" />
+    <None Include="packages.config" />
+    <None Include="Resources\prof.JPG" />
+    <None Include="Resources\new_bg.jpg" />
+    <None Include="Resources\A6.gif" />
+    <None Include="Resources\A5.gif" />
+    <None Include="Resources\A4.gif" />
+    <None Include="Resources\A3.gif" />
+    <None Include="Resources\A2.gif" />
+    <None Include="Resources\A1.gif" />
+    <None Include="Resources\C1.png" />
+    <None Include="Resources\C3.png" />
+    <None Include="Resources\C2.png" />
+    <None Include="Resources\T3.png" />
+    <None Include="Resources\T2.png" />
+    <None Include="Resources\T1.png" />
+    <None Include="Resources\T0.png" />
+    <None Include="Resources\T9.png" />
+    <None Include="Resources\T8.png" />
+    <None Include="Resources\T7.png" />
+    <None Include="Resources\T6.png" />
+    <None Include="Resources\T5.png" />
+    <None Include="Resources\T4.png" />
+    <None Include="Resources\Play13.wav" />
+    <None Include="Resources\Play12.wav" />
+    <None Include="Resources\Play11.wav" />
+    <None Include="Resources\Play10.wav" />
+    <None Include="Resources\Play9.wav" />
+    <None Include="Resources\Play8.wav" />
+    <None Include="Resources\Play7.wav" />
+    <None Include="Resources\Play6.wav" />
+    <None Include="Resources\Play5.wav" />
+    <None Include="Resources\Play4.wav" />
+    <None Include="Resources\Play3.wav" />
+    <None Include="Resources\Play2.wav" />
+    <None Include="Resources\Play1.wav" />
+    <None Include="Resources\Play26.wav" />
+    <None Include="Resources\Play25.wav" />
+    <None Include="Resources\Play24.wav" />
+    <None Include="Resources\Play23.wav" />
+    <None Include="Resources\Play22.wav" />
+    <None Include="Resources\Play21.wav" />
+    <None Include="Resources\Play20.wav" />
+    <None Include="Resources\Play19.wav" />
+    <None Include="Resources\Play18.wav" />
+    <None Include="Resources\Play17.wav" />
+    <None Include="Resources\Play16.wav" />
+    <None Include="Resources\Play15.wav" />
+    <None Include="Resources\Play14.wav" />
+    <None Include="Resources\background_video.gif" />
+    <None Include="Resources\E00.jpg" />
+    <None Include="Resources\E04.gif" />
+    <None Include="Resources\E03.gif" />
+    <None Include="Resources\E02.gif" />
+    <None Include="Resources\E01.gif" />
+    <None Include="Resources\E1E.gif" />
+    <None Include="Resources\E1D.gif" />
+    <None Include="Resources\E1C.gif" />
+    <None Include="Resources\E1B.gif" />
+    <None Include="Resources\E1A.gif" />
+    <None Include="Resources\E19.gif" />
+    <None Include="Resources\E18.gif" />
+    <None Include="Resources\E17.gif" />
+    <None Include="Resources\E16.gif" />
+    <None Include="Resources\E15.gif" />
+    <None Include="Resources\E14.gif" />
+    <None Include="Resources\E13.gif" />
+    <None Include="Resources\E12.gif" />
+    <None Include="Resources\E11.gif" />
+    <None Include="Resources\E10.gif" />
+    <None Include="Resources\E0F.gif" />
+    <None Include="Resources\E0E.gif" />
+    <None Include="Resources\E0D.gif" />
+    <None Include="Resources\E0C.gif" />
+    <None Include="Resources\E0B.gif" />
+    <None Include="Resources\E0A.gif" />
+    <None Include="Resources\E09.gif" />
+    <None Include="Resources\E08.gif" />
+    <None Include="Resources\E07.gif" />
+    <None Include="Resources\E06.gif" />
+    <None Include="Resources\E05.gif" />
+    <None Include="Resources\T6.jpg" />
+    <None Include="Resources\T5.jpg" />
+    <None Include="Resources\T9.jpg" />
+    <None Include="Resources\T8.jpg" />
+    <None Include="Resources\T7.jpg" />
+    <None Include="Resources\T4.jpg" />
+    <None Include="Resources\T3.jpg" />
+    <None Include="Resources\T2.jpg" />
+    <None Include="Resources\T0.jpg" />
+    <None Include="Resources\T1.jpg" />
+    <None Include="Resources\hakone.png" />
+    <None Include="Resources\momijiline.png" />
+    <None Include="Resources\card8m.png" />
+    <None Include="Resources\usui.jpg" />
+    <None Include="Resources\tsukubaSnow.jpg" />
+    <None Include="Resources\tsukuba.jpg" />
+    <None Include="Resources\tsuchisakaSnow.jpg" />
+    <None Include="Resources\tsuchisaka.jpg" />
+    <None Include="Resources\tsubakiLine.jpg" />
+    <None Include="Resources\sadamine.jpg" />
+    <None Include="Resources\namagari.jpg" />
+    <None Include="Resources\nagao.jpg" />
+    <None Include="Resources\myogi.jpg" />
+    <None Include="Resources\lakeAkina.jpg" />
+    <None Include="Resources\irohazaka.jpg" />
+    <None Include="Resources\happogahara.jpg" />
+    <None Include="Resources\akinaSnow.jpg" />
+    <None Include="Resources\akina.jpg" />
+    <None Include="Resources\akagi.jpg" />
+    <None Include="Resources\nada.png" />
+    <None Include="Resources\card7m.png" />
+    <None Include="Resources\card7f.png" />
+    <None Include="Resources\card6m.png" />
+    <None Include="Resources\card6f.png" />
+    <None Include="Resources\play.wav" />
+    <None Include="Resources\launcher_bg.jpg" />
+    <Content Include="ID7.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginContract\PluginContract.vbproj">
+      <Project>{413aa0e0-8bbb-4cd2-8a3d-f7904ee54f95}</Project>
+      <Name>PluginContract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>COPY "$(TargetPath)" "E:\TeknoParrotLatest"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
